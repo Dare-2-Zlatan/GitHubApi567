@@ -7,7 +7,7 @@ class TestGetRepo(unittest.TestCase):
     def test_normal_response(self):
         expected = ['User: Dare-2-Zlatan',
                     'Repo: 567 Number of commits: 3',
-                    'Repo: Assignment00_567 Number of commits: 2',
+                    'Repo: Assignment00_567 Number of commits: 2', 'Repo: GitHubApi567 Number of commits: 4',
                     'Repo: Triangle567 Number of commits: 8']
         self.assertEqual(get_repo_info(), expected)
 
