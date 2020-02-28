@@ -5,4 +5,4 @@ install:
   - pip install requests
 # command to run tests
 script:
- - pytest github_ap_test.py
+ - pytest Git_api.py
