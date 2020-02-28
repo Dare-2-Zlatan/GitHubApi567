@@ -5,4 +5,4 @@ install:
   - pip install requests
 # command to run tests
 script:
- - pytest Git_api.py
+ - pytest Git_api_mock.py
